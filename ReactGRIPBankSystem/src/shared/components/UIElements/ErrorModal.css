@@ -1,0 +1,9 @@
+.Error-modal{
+    top:27.5vh;
+    width:40%;
+    margin-left: 5rem;
+}
+.Error-modal__footer {
+    padding: 1rem;
+    text-align: right;
+  }

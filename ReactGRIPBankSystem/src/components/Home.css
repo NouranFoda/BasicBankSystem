@@ -1,0 +1,25 @@
+.banner{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0 ,0.5),rgba(0,0,0,0.5)) ,url(https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/686015/retina_1708x683_cover-0521_FintechRefresh_Luke-Cover-3818fbe9eab767c8302f9280f71467de-17adbeff8ab6e2a0ccb23f3c469cdd2e.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+.home-content{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align:center ;
+    color:aliceblue;
+}
+.home-content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.home-content p{
+    font-weight: 100;
+    margin: 20px auto;
+    line-height: 25px;
+}

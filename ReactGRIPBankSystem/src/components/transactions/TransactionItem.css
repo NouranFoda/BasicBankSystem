@@ -1,0 +1,75 @@
+.transaction-item {
+  margin: 0rem 8rem;
+  width: 75%;
+  align-items: center;
+  padding: 0.5rem;
+}
+.transaction-item :hover,
+.transaction-item :active {
+    background: #ffd900;
+}
+
+.transaction-item__content {
+  padding: 0 ;
+}
+
+.transaction-item__info {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.transaction-item__info :hover,
+.transaction-item__info :active {
+    background: #4d4d4d;
+    color:#ccc;
+}
+
+.transaction-item__single-info{
+  margin: 0.5rem 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.transaction-item__image {
+  width: 100%;
+  height: 12.5rem;
+  margin-right: 1.5rem;
+}
+
+.transaction-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  
+.transaction-item__info h4,
+.transaction-item__info p {
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.transaction-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.transaction-item__modal-content {
+  padding: 0;
+}
+
+.transaction-item__modal-actions {
+  text-align: right;
+}
+
+.transaction-item__actions button,
+.transaction-item__actions a {
+  margin: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .transaction-item__image {
+    height: 20rem;
+  } 
+}
