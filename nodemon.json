@@ -1,0 +1,7 @@
+{
+    "env":{
+        "DB_USER":"nouran",
+        "DB_PASSWORD":"Nouran12345.",
+        "DB_NAME":"BankSystem"
+    }
+}
